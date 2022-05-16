@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-05-16T09:34:09.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="KOerKhUTQRG6Px5mysE9" version="18.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-16T13:47:02.852Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="f7TxPvxktpYuroQsGEt9" version="18.0.5" type="github">
   <diagram id="RMcL3n7hpZ8fIVGod4ny" name="Page-1">
-    <mxGraphModel dx="2014" dy="562" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2151" dy="628" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-10" value="User" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="131" y="822" width="230.67" height="182" as="geometry" />
+          <mxGeometry x="136" y="1221" width="230.67" height="234" as="geometry" />
         </mxCell>
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-11" value="+ _id: ObjectID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Oak1mWo9v-8OV0q6VtSm-10" vertex="1">
           <mxGeometry y="26" width="230.67" height="26" as="geometry" />
@@ -25,8 +25,14 @@
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-16" value="+ default_role: string (freelancer | client)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Oak1mWo9v-8OV0q6VtSm-10" vertex="1">
           <mxGeometry y="156" width="230.67" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="UXOGcqwC0pb2AC3sruDp-13" value="+ location: coordinates" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Oak1mWo9v-8OV0q6VtSm-10">
+          <mxGeometry y="182" width="230.67" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UXOGcqwC0pb2AC3sruDp-22" value="+ keywords: array&lt;string&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Oak1mWo9v-8OV0q6VtSm-10">
+          <mxGeometry y="208" width="230.67" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-19" value="Admin" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="131" y="1441" width="210" height="130" as="geometry" />
+          <mxGeometry x="136" y="1840" width="210" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-20" value="+ _id: ObjectID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Oak1mWo9v-8OV0q6VtSm-19" vertex="1">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
@@ -41,10 +47,10 @@
           <mxGeometry y="104" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-53" value="&lt;b&gt;Entity Relationship Diagram&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="45" y="726" width="240" height="30" as="geometry" />
+          <mxGeometry x="50" y="1125" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-80" value="Service" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="128" y="1222" width="230.67" height="156" as="geometry" />
+          <mxGeometry x="133" y="1621" width="230.67" height="182" as="geometry" />
         </mxCell>
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-81" value="+ _id: ObjectID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Oak1mWo9v-8OV0q6VtSm-80" vertex="1">
           <mxGeometry y="26" width="230.67" height="26" as="geometry" />
@@ -61,8 +67,11 @@
         <mxCell id="UXOGcqwC0pb2AC3sruDp-5" value="+ category: ObjectID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Oak1mWo9v-8OV0q6VtSm-80">
           <mxGeometry y="130" width="230.67" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="UXOGcqwC0pb2AC3sruDp-24" value="+ keywords: array&lt;string&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Oak1mWo9v-8OV0q6VtSm-80">
+          <mxGeometry y="156" width="230.67" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-94" value="Booking" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="504" y="1074" width="212" height="234" as="geometry" />
+          <mxGeometry x="509" y="1473" width="212" height="234" as="geometry" />
         </mxCell>
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-95" value="+ _id: ObjectID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Oak1mWo9v-8OV0q6VtSm-94" vertex="1">
           <mxGeometry y="26" width="212" height="26" as="geometry" />
@@ -91,9 +100,9 @@
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Oak1mWo9v-8OV0q6VtSm-97" target="Oak1mWo9v-8OV0q6VtSm-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="438" y="1139" />
-              <mxPoint x="438" y="1088" />
-              <mxPoint x="297" y="1088" />
+              <mxPoint x="443" y="1538" />
+              <mxPoint x="443" y="1487" />
+              <mxPoint x="302" y="1487" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -105,9 +114,9 @@
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Oak1mWo9v-8OV0q6VtSm-98" target="Oak1mWo9v-8OV0q6VtSm-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="385" y="1165" />
-              <mxPoint x="385" y="1135" />
-              <mxPoint x="192" y="1135" />
+              <mxPoint x="390" y="1564" />
+              <mxPoint x="390" y="1534" />
+              <mxPoint x="197" y="1534" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -127,8 +136,8 @@
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Oak1mWo9v-8OV0q6VtSm-83" target="Oak1mWo9v-8OV0q6VtSm-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="96" y="1313" />
-              <mxPoint x="96" y="900" />
+              <mxPoint x="101" y="1712" />
+              <mxPoint x="101" y="1299" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -138,7 +147,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-107" value="Category" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="504" y="816" width="210" height="78" as="geometry" />
+          <mxGeometry x="509" y="1215" width="210" height="78" as="geometry" />
         </mxCell>
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-108" value="+ _id: ObjectID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Oak1mWo9v-8OV0q6VtSm-107" vertex="1">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
@@ -149,8 +158,8 @@
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Oak1mWo9v-8OV0q6VtSm-113" target="Oak1mWo9v-8OV0q6VtSm-107" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="430" y="965" />
-              <mxPoint x="430" y="855" />
+              <mxPoint x="435" y="1364" />
+              <mxPoint x="435" y="1254" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -160,7 +169,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-116" value="Subcategory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="504" y="936" width="210" height="104" as="geometry" />
+          <mxGeometry x="509" y="1335" width="210" height="104" as="geometry" />
         </mxCell>
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-117" value="+ _id: ObjectID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Oak1mWo9v-8OV0q6VtSm-116" vertex="1">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
@@ -174,8 +183,8 @@
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Oak1mWo9v-8OV0q6VtSm-127" target="Oak1mWo9v-8OV0q6VtSm-107" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="745" y="1027" />
-              <mxPoint x="745" y="855" />
+              <mxPoint x="750" y="1426" />
+              <mxPoint x="750" y="1254" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -187,15 +196,15 @@
         <mxCell id="Oak1mWo9v-8OV0q6VtSm-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Oak1mWo9v-8OV0q6VtSm-53" target="Oak1mWo9v-8OV0q6VtSm-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UXOGcqwC0pb2AC3sruDp-1" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Questions about the architecture of the solution.&lt;/div&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Basic description.&lt;br style=&quot;font-size: 14px;&quot;&gt;The solution is a job boarding application for freelancers. The job boarding process of this solution is as follows:&lt;/li&gt;&lt;ol style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Freelancers add their services on the platform including the category of their service.&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;The user is able to search for the service(s) they need using keywords or categories. (More on search below)&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;User can book the freelancers for the selected service using the widget provided by a third party booking platform of freelancer&#39;s choice. (More on booking platforms below)&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Once the service is complete user and freelancer will be able to give a review about each other. (More on rating process below)&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Role management in the solution.&lt;br&gt;There are two major roles in this application&lt;/li&gt;&lt;ol style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Admin, admins of the solution will have access to the admin application of this solution. This admin app will contain following modules&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;Dashboard&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Preferences&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Users&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Services&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Categories and Subcategories&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Bookings&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;User, a user can have two roles. A user can be a freelancer(service provider) or a client(consumer). The option to change roles will be available in the navbar of the user app. A user&#39;s views will depend on their role. Here are some views specific for each role.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Freelancer&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Dashboard&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Services&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Bookings&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Preferences&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Client&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Home&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Search&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Service Details&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Book appointment for service&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Different types of searches in the platform?&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Recommendation System&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Analytics&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Email alerts&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;How does rating system work?&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;spacingLeft=10;spacingRight=10;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-824" y="32" width="800" height="1042" as="geometry" />
+        <mxCell id="UXOGcqwC0pb2AC3sruDp-1" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Questions about the architecture of the solution.&lt;/div&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Basic description.&lt;br style=&quot;font-size: 14px;&quot;&gt;The solution is a job boarding application for freelancers. The job boarding process of this solution is as follows:&lt;/li&gt;&lt;ol style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Freelancers add their services on the platform including the category of their service.&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;The user is able to search for the service(s) they need using keywords or categories. (More on search below)&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;User can book the freelancers for the selected service using the widget provided by a third party booking platform of freelancer&#39;s choice. (More on booking platforms below)&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Once the service is complete user and freelancer will be able to give a review about each other. (More on rating process below)&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Role management in the solution.&lt;br&gt;There are two major roles in this application&lt;/li&gt;&lt;ol style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Admin, admins of the solution will have access to the admin application of this solution. This admin app will contain following modules&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;Dashboard&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Preferences&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Users&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Services&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Categories and Subcategories&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Bookings&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;User, a user can have two roles. A user can be a freelancer(service provider) or a client(consumer). The option to change roles will be available in the navbar of the user app. A user&#39;s views will depend on their role. Here are some views specific for each role.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Freelancer&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Dashboard&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Services&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Bookings&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Preferences&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Client&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Home&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Search&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Service Details&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Book appointment for service&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ol&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Different types of searches in the platform?&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Textual search, this&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Search by image&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Search with phrases&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Recommendation System&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Analytics.&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Email/Text Notifications.&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;How does rating system work?&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Booking platforms&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;spacingLeft=10;spacingRight=10;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-825" y="29" width="800" height="1042" as="geometry" />
         </mxCell>
         <mxCell id="UXOGcqwC0pb2AC3sruDp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UXOGcqwC0pb2AC3sruDp-5" target="Oak1mWo9v-8OV0q6VtSm-107">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="774" y="1365" />
-              <mxPoint x="774" y="786" />
-              <mxPoint x="609" y="786" />
+              <mxPoint x="779" y="1764" />
+              <mxPoint x="779" y="1185" />
+              <mxPoint x="614" y="1185" />
             </Array>
           </mxGeometry>
         </mxCell>
